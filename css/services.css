@@ -1,0 +1,224 @@
+.banner-img,
+.intro-h1,
+.banner-hr {
+  display: none;
+}
+
+.unit-p-services {
+  color: #ed0f69;
+}
+
+/* FOLDS */
+.img-fold {
+  width: 7em;
+}
+
+.fold-hide {
+  display: none;
+}
+
+.email {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+li {
+  margin-left: 1em;
+}
+
+nav li {
+  margin-left: 0;
+}
+
+.services-q {
+  border-left: 3px solid #ed0f69;
+  padding-left: .5em;
+}
+
+.img-copier {
+  padding-left: 1em;
+  width: 100%;
+
+  -webkit-box-shadow: 10px 10px 24px -17px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 24px -17px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 24px -17px rgba(0,0,0,0.75);
+}
+
+/* SHREDDING */
+
+.img-shred {
+  float: right;
+  width: 50%;
+}
+
+/* FRAMING */
+
+.frame-section {
+  margin-bottom: 5em;
+}
+
+.img-frame {
+  border: 1px solid #a9a8a9;
+  position: absolute;
+  width: 11em;
+}
+
+.fig-cap {
+  bottom: 0;
+  top: 8.5em;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+
+  padding: 1em;
+  position: relative;
+}
+
+.services-sidebar {
+  border-bottom: 1px solid #ed0f69;
+  border-top: 1px solid #ed0f69;
+  border-left: 1px solid #ed0f69;
+
+  padding: 0 1em 1em;
+}
+
+.text-left{
+   line-height: 1.3;
+  }
+
+.frame-p {
+  padding-top: 1em;
+}
+
+.p-hide {
+  display: none;
+}
+
+.email {
+  border-bottom: 1px solid #ed0f69;
+  color: #ed0f69;
+}
+
+.p-sup {
+  line-height: 1.3;
+}
+
+.p-sup,
+.img-copier img {
+  vertical-align: bottom;
+}
+
+/********** MEDIA QUERIES **********/
+
+/*960px and over*/
+@media only screen and (min-width: 60em) {
+
+  /* supplies */
+  .img-copier {
+    padding-top: 1.5em;
+  }
+}
+
+/*in-between: 648px and under*/
+@media only screen and (max-width: 40.5em) {
+
+  /* supplies */
+  .img-copier {
+    padding-top: 1em;
+  }
+}
+
+/*608px and under*/
+@media only screen and (max-width: 38em) {
+
+  /* supplies */
+  .sup-container {
+  padding-top: 0;
+  }
+
+  .p-sup {
+    margin: 0 18%;
+    text-align: left;
+  }
+
+  .img-copier {
+    margin-left: 16%;
+    width: 60%;
+  }
+
+  /*FOLDS*/
+  .img-fold {
+    width: 50%;
+  }
+
+  /* FRAMING */
+  .frame-section {
+    margin-bottom: 0;
+  }
+
+  .frame-section p:first-of-type {
+    margin-bottom: 0;
+  }
+  .services-sidebar {
+    border: none;
+    padding: 0;
+  }
+
+  .img-frame {
+    margin-top: 2em;
+    margin-left: 22%;
+    position: relative;
+    width: 50%;
+  }
+
+  figcaption {
+    display: none;
+  }
+
+  .p-hide {
+    color: #a9a8a9;
+    border-left: 2px solid #ed0f69;
+    display: block;
+    margin-left: 22%;
+    margin-top: .25em;
+    padding-left: .5em;
+  }
+
+    /* SCANNING */
+    .scan-img {
+      width: 80%;
+    }
+
+}
+
+/*400px and under*/
+@media only screen and (max-width: 25em) {
+
+  /*FOLDS*/
+  .fold-hide {
+    color: #ed0f69;
+    display: block;
+  }
+
+  .fold-show {
+    display: none;
+  }
+
+  .img-fold {
+    width: 30%;
+  }
+
+  .punch-img {
+    display: none;
+  }
+
+  .img-shred {
+    width: 75%;
+  }
+
+  /* SCANNING */
+  .scan-img {
+    display: none;
+  }
+
+}

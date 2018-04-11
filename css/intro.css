@@ -1,0 +1,295 @@
+/* QUOTE */
+
+.intro-q {
+    border-left: 2px solid #acc32b;
+    padding-left: 1.5rem;
+}
+
+.unit-p-intro {
+  color: #acc32b;
+}
+
+/* BIO */
+
+.h3-bio {
+  display: none;
+
+  font-weight: 400;
+  border-left: 3px solid #acc32b;
+  padding-left: .5em;
+}
+
+.green-hr {
+  margin: 2em 0;
+  border: 1px solid #acc32b;
+  width: 100%;
+}
+
+.overlay-i {
+  width: 30px;
+  margin-right: .5em;
+}
+
+.contact-icons {
+  cursor: pointer;
+  padding-right: .5em;
+  width: 36px;
+}
+
+/* POLICY section */
+
+.intro-policy {
+    border: 2px solid #acc32b;
+    padding: 1.5rem 1rem .25rem;
+}
+
+.intro-a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.headshot-container {
+  width: 45%;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.pad-top-shl {
+  padding-top: 1em;
+}
+
+.line-0 {
+  line-height: 1.2;
+}
+
+/* EMBLEM */
+
+.emblem {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.emblem img {
+  width: 100%;
+}
+
+
+.emblem-sm {
+    display: none;
+}
+
+.i-num {
+    display: none;
+}
+
+/* SECTION 3 - EMBLEMS */
+
+.sen-emblem1 {
+    padding-right: 1em;
+    width: 90%;
+}
+
+.sen-emblem2 {
+    margin: 1.5em 0;
+    width: 85%;
+}
+
+/* SECTION 4 - ICONS + COLS */
+
+.pms {
+    padding-right: 1em;
+}
+
+.i-pms {
+    height: 150px;
+    padding-top: 1.5em;
+    width: 100%;
+}
+
+.files img {
+    width: 100%;
+}
+
+.intro-li {
+    display: none;
+}
+
+.banner-container,
+.intro-h1,
+.banner-hr {
+  display: none;
+}
+
+/**** MEDIA QUERIES ****/
+
+/* desktop 1440px and over */
+@media only screen and (min-width: 90em) {
+
+}
+
+/* laptop 960px and under */
+@media only screen and (max-width: 60em) {
+
+    /* SECTION 3 - EMBLEMS */
+
+    .sen-emblem1 {
+        padding-right: 0;
+        padding-bottom: 2em;
+
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .sen-emblem2 {
+        padding: 2em 0;
+
+        text-align: center;
+        margin: 0 auto;
+        width: 40%;
+    }
+}
+
+/* tablet 608px and under */
+@media only screen and (max-width: 38em) {
+
+  .h2-team {
+    margin-bottom: .5em!important;
+  }
+
+  .h3-bio {
+    display: inline-block;
+    margin-bottom: 2em;
+  }
+
+  .intro-h3 {
+    padding-top: 2em;
+  }
+
+    /* image */
+    .img-slant {
+        height: 90px;
+        width: 140px;
+    }
+
+    /* grey back */
+    .dark-slant {
+        height: 90px;
+    }
+
+    /* right floating img */
+    .title-texture {
+        width: 90px;
+    }
+
+    /* into h1 container */
+    .title-content {
+        padding-left: 9rem;
+    }
+
+    /* h1 */
+    .title-content h1 {
+        margin-top: .5rem;
+    }
+
+    .p-no-show {
+      display: none;
+    }
+
+    .headshot-caro {
+      padding-bottom: .75em;
+    }
+
+    /**********/
+
+    /* SECTION 2 */
+
+    /* EMBLEM */
+    .emblem {
+        display: none;
+    }
+
+    .emblem-sm {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    /* list */
+    .intro-li {
+        display: block;
+    }
+
+    ol i {
+        border: none;
+    }
+
+    ol li {
+        padding: .5em 0;
+    }
+
+    .li-i {
+        float: left;
+        vertical-align: bottom;
+        margin-right: .75em;
+        width: 1.25em;
+    }
+
+    li span {
+        display: block;
+    }
+
+    /**********/
+
+    /* SECTION 3 - EMBLEMS */
+
+    .sen-emblem2 {
+        width: 60%;
+    }
+
+    /* SECTION 4 */
+
+    .files {
+        margin-bottom: 1.25em;
+    }
+}
+
+/* mobile 400px and under */
+@media only screen and (max-width: 25em) {
+
+    /* image */
+    .img-slant {
+        height: 80px;
+        width: 120px;
+    }
+
+    /* grey back */
+    .dark-slant {
+        height: 80px;
+    }
+
+    /* right floating image */
+    .title-texture {
+        width: 60px;
+    }
+
+    /* h1 container */
+    .title-content {
+        padding-left: 7.25rem;
+    }
+
+    /* h1 */
+    .title-content h1 {
+        font-size: 1.25em;
+    }
+
+    i {
+        border: none;
+    }
+
+}

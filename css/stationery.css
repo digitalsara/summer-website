@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:700');
+
+.num {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.all-banners {
+  padding-top: 12em;
+}
+
+a {
+  color: #000;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -300px;
+  visibility: hidden;
+}
+
+a.anchor-more {
+  display: block;
+  position: relative;
+  top: -330px;
+  visibility: hidden;
+}
+
+.helvetica {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+}
+
+.purple {
+  color: #5f308e;
+}
+
+.unit-p-stationery,
+.ul-purple,
+.ul-purple a {
+  color: #5f308e;
+}
+
+.ul-underline a {
+  border-bottom: 1px solid #5f308e;
+}
+
+.hr-purple {
+  border-width: .25px;
+  border-color: #5f308e;
+}
+
+ ol li {
+  margin-left: 0!important;
+  padding: .5em 0;
+  vertical-align: top;
+}
+
+.li-i2 {
+    float: left;
+    margin-right: .75em;
+    width: 1.25em;
+}
+
+.stationery-h1 {
+  border-left: 5.5px solid #5f308e;
+  padding-left: .5em;
+  width: 100%;
+}
+
+.stationery-title {
+  display: none;
+}
+
+.business-card {
+  border: .5px solid #ccc;
+}
+
+.color-code {
+  width: 40%;
+}
+
+.color-code-ty {
+  width: 60px;
+}
+
+.b-card {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img-paper {
+  width: 30px;
+}
+
+.img-color {
+  width: 45px;
+}
+
+.img-red {
+  width: 25px;
+}
+
+.blue-bar {
+  border-left: 3px solid #26b3e8;
+  margin-right: .5em;
+}
+
+.grey-border {
+  border: 2px solid #ccc;
+  width: 95%;
+}
+
+.grey-border-only {
+  border: 2px solid #ccc;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.comp-3 {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+.img-hor {
+  width: 40px;
+}
+
+.underline {
+  border-bottom: 1px solid #000;
+}
+
+.sympathy-cards {
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+.sympathy-cards-hori {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.envelope {
+  padding-bottom: .5em;
+}
+
+/********** MEDIA QUERIES **********/
+
+/*608px and under*/
+@media only screen and (max-width: 38em) {
+
+  ol li span {
+    margin-left: 2em;
+  }
+
+  .comp-3,
+  .width-90 {
+    width: 100%;
+  }
+
+}

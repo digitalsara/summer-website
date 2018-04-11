@@ -1,0 +1,14 @@
+Green: #adc32b
+Pink: #ed0f69
+Blue: #26b3e8
+Purple: #5f308e
+
+Dark grey: #231f20
+
+Light grey: #a9a8a9
+
+Dark blue: #047b8d
+
+Apple Green: #acc32b;
+
+Orange: #e9b000

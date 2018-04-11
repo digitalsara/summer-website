@@ -1,0 +1,55 @@
+nav {
+  margin-bottom: 3em;
+}
+
+.news-temp {
+  margin-bottom: 3em;
+}
+
+.green {
+  color: #09b261;
+}
+
+.news-contact {
+  /*width: 50%;*/
+}
+
+.print-unit {
+  /*margin-right: 1em;*/
+}
+
+.news-title h2 {
+  color: #09b261;
+}
+
+.news-title-p {
+  margin-bottom: 2em;
+}
+
+.news-i {
+  width: 25px;
+  height: 25px;
+  margin-right: 1em;
+}
+
+.news-contact-h3,
+.news-contact-h3 a {
+  font-family: "Titillium Web", sans-serif;
+  color: #000;
+}
+
+.contact-container {
+  width: 100%;
+}
+
+@media only screen and (max-width: 38em) {
+
+  nav {
+    margin-bottom: 1em;
+  }
+
+  .news-temp {
+    margin-bottom: 1em;
+  }
+
+}

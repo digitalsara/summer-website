@@ -1,0 +1,214 @@
+/* TITLE */
+
+/* new title */
+
+.banner-grid-top {
+  padding-top: 12.5em;
+}
+
+/************/
+.title-container {
+    overflow: hidden;
+}
+
+/* image */
+.img-slant {
+  width: 200px;
+  height: 120px;
+  margin: 0 0 0 -20px;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  background: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.title-img {
+  background: url(../img/intro-title-img.jpg);
+  background-size:contain;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: -30px;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+}
+
+/* pink */
+.title-img2 {
+  background: url(../img/services/title-img2.jpg);
+  background-size: contain;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: -30px;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+}
+
+/* dark div */
+.dark-slant {
+  background-color: #231f20;
+  height: 120px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+/* green div w/ h1 */
+.title-content {
+  background-color: #acc32b;
+  color: #fff;
+  height: 45px;
+  padding-left: 13rem;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+/* pink bar */
+#title-pink {
+  background-color: #ed0f69;
+}
+
+.title-content h1 {
+  font-weight: 300;
+  margin-top: .25rem;
+}
+
+.title-texture {
+  float: right;
+  width: 125px;
+}
+
+.intro-q a {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+#title-blue {
+  background-color: #26b3e8;
+}
+
+/* H1 BORDERS/DIVIDERS */
+
+.border {
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+
+/* pink bar */
+#title-purple {
+  background-color: #5f308e;
+}
+
+/* BLACK/REQUISITION TITLE */
+
+.title-black {
+  background-color: #231f20;
+  color: #fff;
+
+  z-index: 3;
+}
+
+.title-black h1 {
+  font-weight: lighter;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/******** MEDIA QUERIES *********/
+
+/* large 1440px and over */
+@media only screen and (min-width: 90em) {
+  /* TITLE BANNER */
+
+
+}
+
+/* desktop 960px and over */
+@media only screen and (min-width: 60em) {
+
+  .title-content {
+      padding-left: 12rem;
+    }
+
+    .title-content h1 {
+        margin-top: .1rem;
+    }
+}
+
+/* tablet 608px and under */
+@media only screen and (max-width: 38em) {
+
+
+  .title-content h1 {
+      margin-top: .5rem;
+  }
+
+  .title-texture {
+      width: 96px;
+  }
+
+  .img-slant {
+    height: 90px;
+    width: 150px;
+  }
+
+  /* dark div */
+  .dark-slant {
+      height: 90px;
+  }
+
+  .title-texture {
+      width: 70px;
+  }
+
+  /* general */
+  .img-slant {
+    width: 110px;
+  }
+
+  .title-img2 {
+    left: -60px;
+  }
+
+  .title-content {
+    padding-left: 7.5em;
+  }
+
+  .title-black h1 {
+    text-align: left;
+    padding-left: 1.3rem;
+    margin: 0;
+  }
+
+  #title-purple h1 {
+    font-size: 1rem;
+  }
+
+}
+
+
+/* 372px */
+@media only screen and (max-width: 340px) {
+  #title-blue {
+    height: 68px;
+  }
+
+  #title-blue h1 {
+    margin-top: .25em;
+  }
+
+  #title-blue > .print-h1-e {
+    margin-top: 1.5em;
+  }
+
+  .title-content-e {
+    padding-left: 6.75em;
+  }
+}
